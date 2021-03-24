@@ -1,0 +1,14 @@
+{
+  "name": "custcli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "custcli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "custcli": "custcli.js"
+  }
+}
