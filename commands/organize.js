@@ -73,6 +73,7 @@ function fn(dirpath){
     //else just create organize folder. it will replace pre exissting organize folder
     //now traverse whole directory recurrsively and put copy of each file based on their extension
     if(dirpath==undefined){
+        //process.cwd() returns directory where command has been executed(not directory of the node package)
         dirpath=process.cwd();
     }
     if(corrPath(dirpath)){
